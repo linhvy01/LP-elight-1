@@ -1,0 +1,345 @@
+@import 'variables';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $first-font;
+	font-size: 16px;
+	color: $para-color;
+	overflow-x: hidden;
+}
+
+.one {
+	padding-right: 12px;
+	padding-top: 75px;
+}
+
+.hotline {
+	display: inline-block;
+}
+
+.hotline p {
+	font-size: 20px;
+}
+
+.hotline p:first-child {
+	font-weight: 600;
+}
+
+.hotline span {
+	font-size: 29px;
+	color: $text-color;
+	display: block;
+	padding: 2px 0;
+}
+
+.logo img {
+	width: 120px;
+}
+
+.payment-bar {
+	padding-top: 28px;
+	padding-bottom: 40px;
+}
+
+.payment-bar img {
+	width: 98%;
+}
+
+.payment-method p {
+	font-weight: 600;
+}
+
+.checkout {
+	border: 2px solid $border-first;
+	margin-top: 25px;
+	margin-bottom: 20px
+}
+
+.the-same {
+	padding: 18px 23px;
+	border-bottom: 2px solid $border-first;
+	cursor: pointer;
+}
+
+
+.the-same input,
+.the-same label {
+	pointer-events: none;
+}
+
+.too {
+	border-bottom: none;
+}
+
+.the-same label {
+	display: inline;
+	font-size: 16px;
+	cursor: pointer;
+	font-weight: 300;
+}
+
+.the-same input[type='radio'] {
+	width: 2em;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    opacity: 0;
+    display: none;
+}
+
+.the-same label span {
+	display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0.25em 1em 0.25em 0.25em;
+    background: white;
+    border: 1px solid $border-first;
+    border-radius: 50%;
+    vertical-align: -10px;
+}
+
+.the-same:hover label {
+	color: $text-color;
+}
+
+.the-same:hover label span {
+	border: 3px solid $text-color;
+}
+
+.checkout-button button {
+	background-color: #fb6a00;
+    color: #fff;
+    padding: 15px 21px;
+    box-shadow: 0px 4px 1px #d65a00;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+}
+
+.checkout-button button:focus {
+	outline: none;
+}
+
+button:hover, .bonus-button button:hover {
+	background-color: #ff791a;
+}
+
+.two {
+	background-color: $right-bg;
+	padding-top: 75px;
+	padding-bottom: 290px;
+}
+
+.right-top-content img {
+	width: 100%;
+	border-bottom: 2px solid $border-second;
+}
+
+.right-middle-content {
+	padding-top: 22px;
+	padding-bottom: 22px;
+	border-bottom: 2px solid $border-second
+}
+
+.right-middle-content h5 {
+	color: $text-color;
+	padding-bottom: 20px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.right-middle-content p {
+	font-weight: 300;
+	font-size: 17px;
+}
+
+.payment-info {
+	padding-top: 31px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid $border-second
+}
+
+.payment-info h6 {
+	color: $text-color;
+	padding-bottom: 15px;
+	font-weight: 600;
+	text-align: center;
+	font-size: 20px;
+}
+
+.payment-info img {
+    vertical-align: middle;
+    margin-right: 6px;
+    width: 13%;
+}
+
+.payment-info p {
+	font-size: 15px;
+	color: $text-color;
+	padding-bottom: 12px;
+	display: inline-block;
+}
+
+.deep p {
+	font-weight: 300;
+	color: $para-color;
+	display: block;
+	padding-bottom: 15.5px;
+}
+
+.deep p:last-child {
+	line-height: 18px;
+}
+
+.payment-info label {
+	font-size: 15px;
+	color: $text-color;
+	padding-bottom: 12px;
+	display: inline-block;
+}
+
+.payment-info input {
+	width: 100%;
+    border: none;
+    border-bottom: 1px solid $border-second;
+    background-color: transparent;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 9px;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    font-size: 15px;
+}
+
+.payment-info input:focus {
+	outline: none;
+}
+
+.after {
+	display: none;
+}
+
+.bonus-button button {
+	color: #fff;
+	background-color: $buttonbg-color;
+	font-size: 16px;
+	padding: 8px 6px;
+	border-radius: 6px;
+	border: none;
+	box-shadow: 0px 2px 1px #d65a00;
+}
+
+.bonus-button button i {
+	padding-right: 6px;
+	vertical-align: top;
+}
+
+.bonus-button button:focus {
+	outline: none;
+}
+
+.total-money {
+	padding-top: 18px;
+	padding-bottom: 30px;
+	font-size: 18px;
+	color: $text-color;
+}
+
+.total-money span:first-child {
+	float: left;
+	font-weight: 300;
+}
+
+.total-money span:last-child {
+	float: right;
+	font-weight: bold;
+}
+
+.banking-info {
+	padding: 15px 0 18px 27px;
+	background-color: $right-bg;
+	border-bottom: 2px solid #e3e3e3;
+	font-size: 15px;
+	line-height: 18px;
+	display: none;
+}
+
+.banking-info p {
+	padding-bottom: 0;
+	font-weight: 300;
+}
+
+.note {
+	padding-top: 30px;
+	padding-bottom: 30px!important;
+}
+
+.banking-info b {
+	font-weight: bold;
+}
+
+.banking-info h5 {
+	color: $text-color;
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 20px;
+	padding-bottom: 8px;
+}
+
+.ppl-info p {
+	padding-bottom: 4px!important;
+}
+
+.cod-info {
+	@extend .banking-info;
+}
+
+.bottom-cod {
+	margin-top: 20px;
+	padding-left: 6px;
+}
+
+.bottom-cod textarea {
+	width: 92%;
+	height: 200px;
+	border-radius: 10px;
+	padding-top: 14px;
+	padding-left: 14px;
+	font-style: italic;
+	border: 1px solid #1d1d1d;
+}
+
+.bottom-cod textarea:focus {
+	outline: none;
+}
+
+p.italic {
+	font-style: italic;
+}
+
+.getup {
+	display: block;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.change {
+	border: 3px solid #eaeaea!important;
+	background-color: $text-color!important;
+}
+
+img.pink {
+	width: 36%;
+	margin: auto;
+	display: none;
+}
+
+@import 'res';

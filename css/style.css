@@ -1,0 +1,497 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #272727;
+  overflow-x: hidden; }
+
+.one {
+  padding-right: 12px;
+  padding-top: 75px; }
+
+.hotline {
+  display: inline-block; }
+
+.hotline p {
+  font-size: 20px; }
+
+.hotline p:first-child {
+  font-weight: 600; }
+
+.hotline span {
+  font-size: 29px;
+  color: #50ad4e;
+  display: block;
+  padding: 2px 0; }
+
+.logo img {
+  width: 120px; }
+
+.payment-bar {
+  padding-top: 28px;
+  padding-bottom: 40px; }
+
+.payment-bar img {
+  width: 98%; }
+
+.payment-method p {
+  font-weight: 600; }
+
+.checkout {
+  border: 2px solid #eaeaea;
+  margin-top: 25px;
+  margin-bottom: 20px; }
+
+.the-same {
+  padding: 18px 23px;
+  border-bottom: 2px solid #eaeaea;
+  cursor: pointer; }
+
+.the-same input,
+.the-same label {
+  pointer-events: none; }
+
+.too {
+  border-bottom: none; }
+
+.the-same label {
+  display: inline;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 300; }
+
+.the-same input[type='radio'] {
+  width: 2em;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  opacity: 0;
+  display: none; }
+
+.the-same label span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 0.25em 1em 0.25em 0.25em;
+  background: white;
+  border: 1px solid #eaeaea;
+  border-radius: 50%;
+  vertical-align: -10px; }
+
+.the-same:hover label {
+  color: #50ad4e; }
+
+.the-same:hover label span {
+  border: 3px solid #50ad4e; }
+
+.checkout-button button {
+  background-color: #fb6a00;
+  color: #fff;
+  padding: 15px 21px;
+  box-shadow: 0px 4px 1px #d65a00;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px; }
+
+.checkout-button button:focus {
+  outline: none; }
+
+button:hover, .bonus-button button:hover {
+  background-color: #ff791a; }
+
+.two {
+  background-color: #f5f5f5;
+  padding-top: 75px;
+  padding-bottom: 290px; }
+
+.right-top-content img {
+  width: 100%;
+  border-bottom: 2px solid #d3d3d3; }
+
+.right-middle-content {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-bottom: 2px solid #d3d3d3; }
+
+.right-middle-content h5 {
+  color: #50ad4e;
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: 20px; }
+
+.right-middle-content p {
+  font-weight: 300;
+  font-size: 17px; }
+
+.payment-info {
+  padding-top: 31px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #d3d3d3; }
+
+.payment-info h6 {
+  color: #50ad4e;
+  padding-bottom: 15px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px; }
+
+.payment-info img {
+  vertical-align: middle;
+  margin-right: 6px;
+  width: 13%; }
+
+.payment-info p {
+  font-size: 15px;
+  color: #50ad4e;
+  padding-bottom: 12px;
+  display: inline-block; }
+
+.deep p {
+  font-weight: 300;
+  color: #272727;
+  display: block;
+  padding-bottom: 15.5px; }
+
+.deep p:last-child {
+  line-height: 18px; }
+
+.payment-info label {
+  font-size: 15px;
+  color: #50ad4e;
+  padding-bottom: 12px;
+  display: inline-block; }
+
+.payment-info input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #d3d3d3;
+  background-color: transparent;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 9px;
+  padding-left: 4px;
+  padding-bottom: 2px;
+  font-size: 15px; }
+
+.payment-info input:focus {
+  outline: none; }
+
+.after {
+  display: none; }
+
+.bonus-button button {
+  color: #fff;
+  background-color: #fb6a00;
+  font-size: 16px;
+  padding: 8px 6px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0px 2px 1px #d65a00; }
+
+.bonus-button button i {
+  padding-right: 6px;
+  vertical-align: top; }
+
+.bonus-button button:focus {
+  outline: none; }
+
+.total-money {
+  padding-top: 18px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  color: #50ad4e; }
+
+.total-money span:first-child {
+  float: left;
+  font-weight: 300; }
+
+.total-money span:last-child {
+  float: right;
+  font-weight: bold; }
+
+.banking-info, .cod-info {
+  padding: 15px 0 18px 27px;
+  background-color: #f5f5f5;
+  border-bottom: 2px solid #e3e3e3;
+  font-size: 15px;
+  line-height: 18px;
+  display: none; }
+
+.banking-info p, .cod-info p {
+  padding-bottom: 0;
+  font-weight: 300; }
+
+.note {
+  padding-top: 30px;
+  padding-bottom: 30px !important; }
+
+.banking-info b, .cod-info b {
+  font-weight: bold; }
+
+.banking-info h5, .cod-info h5 {
+  color: #50ad4e;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 8px; }
+
+.ppl-info p {
+  padding-bottom: 4px !important; }
+
+.bottom-cod {
+  margin-top: 20px;
+  padding-left: 6px; }
+
+.bottom-cod textarea {
+  width: 92%;
+  height: 200px;
+  border-radius: 10px;
+  padding-top: 14px;
+  padding-left: 14px;
+  font-style: italic;
+  border: 1px solid #1d1d1d; }
+
+.bottom-cod textarea:focus {
+  outline: none; }
+
+p.italic {
+  font-style: italic; }
+
+.getup {
+  display: block;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.change {
+  border: 3px solid #eaeaea !important;
+  background-color: #50ad4e !important; }
+
+img.pink {
+  width: 36%;
+  margin: auto;
+  display: none; }
+
+@media screen and (max-width: 1199px) {
+  .payment-bar img {
+    width: 100%; }
+
+  .payment-bar img {
+    display: none; }
+
+  img.pink {
+    width: 50%;
+    display: block;
+    margin: auto; }
+
+  .ppl-info .row .col-md-3 {
+    width: 26%; }
+
+  .ppl-info .row .col-md-9 {
+    width: 74%; }
+
+  .deep p {
+    padding-bottom: 12px; }
+
+  .payment-info input {
+    margin-bottom: 6px; } }
+@media screen and (max-width: 991px) {
+  .one {
+    margin-bottom: 20px; }
+
+  img.pink {
+    width: 40%; }
+
+  .payment-info h6 {
+    padding-bottom: 20px; }
+
+  .note {
+    padding: 15px 0 !important; }
+
+  .deep p {
+    padding-top: 6px; }
+
+  .banking-info h5, .cod-info h5 {
+    padding-top: 15px; }
+
+  .two {
+    padding-bottom: 30px; }
+
+  .payment-info input {
+    margin-bottom: 14px; } }
+@media screen and (max-width: 767px) {
+  .checkout-button button {
+    padding: 15px 10px; }
+
+  body {
+    overflow-x: hidden; }
+
+  .two .row .col-xs-push-1 {
+    left: 18.333333%; }
+
+  .two .row .col-xs-10 {
+    width: 63.333333%; } }
+@media screen and (max-width: 480px) {
+  .logo img {
+    width: 110px; }
+
+  img.pink {
+    width: 50%; }
+
+  .hotline span {
+    font-size: 26px; }
+
+  .two .row .col-xs-push-1 {
+    left: initial; }
+
+  .two .row .col-xs-10 {
+    width: initial; }
+
+  .the-same {
+    padding: 18px 10px; }
+
+  .the-same label span {
+    margin-right: 6px; }
+
+  .ppl-info .row .col-xs-3 {
+    width: 31%; }
+
+  .ppl-info .row .col-xs-9 {
+    width: 69%; }
+
+  .banking-info, .cod-info, .cod-info {
+    padding: 15px 0 18px 15px; }
+
+  .bottom-cod textarea {
+    width: 96%; }
+
+  .checkout-button button {
+    font-size: 16px; }
+
+  .payment-info p {
+    font-size: 14px; }
+
+  .deep p {
+    padding-top: 6.5px; }
+
+  .total-money {
+    font-size: 17px; }
+
+  img.pink {
+    width: 60%; } }
+@media screen and (max-width: 414px) {
+  .logo img {
+    width: 100px; }
+
+  .the-same label {
+    font-size: 15px; }
+
+  .banking-info h5, .cod-info h5, .cod-info h5 {
+    font-size: 17px; }
+
+  .ppl-info .row .col-xs-3 {
+    width: 35%; }
+
+  .ppl-info .row .col-xs-9 {
+    width: 65%; }
+
+  .checkout-button button {
+    font-size: 14px; }
+
+  .deep p {
+    padding-top: 4.5px; }
+
+  .payment-info input {
+    margin-bottom: 11px; } }
+@media screen and (max-width: 375px) {
+  .logo img {
+    width: 90px; }
+
+  .hotline p {
+    font-size: 20px; }
+
+  .hotline span {
+    font-size: 22px; }
+
+  .the-same {
+    padding: 10px 10px; }
+
+  .ppl-info .row .col-xs-3 {
+    padding: 0 9px; }
+
+  .ppl-info .row .col-xs-9 {
+    padding: 0 2px; }
+
+  .deep p {
+    padding-top: 2.5px; }
+
+  .right-middle-content p {
+    font-size: 16px; }
+
+  .deep {
+    padding: 0 12px; }
+
+  .payment-info input {
+    margin-bottom: 8px; }
+
+  .total-money {
+    font-size: 16px; } }
+@media screen and (max-width: 360px) {
+  .banking-info, .cod-info, .cod-info {
+    font-size: 14px; }
+
+  .deep {
+    padding: 0 9px; } }
+@media screen and (max-width: 320px) {
+  .the-same {
+    padding: 10px 8px; }
+
+  .banking-info, .cod-info, .cod-info, .cod-info {
+    font-size: 13px; }
+
+  .ppl-info .row .col-xs-3 {
+    padding: 0 7px; }
+
+  .banking-info, .cod-info, .cod-info, .cod-info {
+    padding: 15px 0 18px 10px; }
+
+  .ppl-info .row .col-xs-9 {
+    padding: 0; }
+
+  .the-same label {
+    font-size: 14px; }
+
+  .the-same label span {
+    width: 18px;
+    height: 18px;
+    vertical-align: -7px; }
+
+  .checkout-button button {
+    padding: 12px 6px; }
+
+  .total-money {
+    font-size: 14px; }
+
+  .deep {
+    padding: 0; }
+
+  .deep p {
+    padding-top: 1.5px; }
+
+  .bonus-button button {
+    font-size: 14px; }
+
+  .payment-info label {
+    font-size: 14px; }
+
+  .payment-info input {
+    margin-bottom: 7px;
+    font-size: 14px; } }
+
+/*# sourceMappingURL=style.css.map */

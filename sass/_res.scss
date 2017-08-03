@@ -1,0 +1,321 @@
+// Responsive!
+
+// 1199px screen
+@media screen and (max-width: 1199px) {
+	.payment-bar img {
+		width: 100%;
+	}
+
+	.payment-bar img {
+		display: none;
+	}
+
+	img.pink {
+		width: 50%;
+		display: block;
+		margin: auto;
+	}
+
+	.ppl-info .row .col-md-3 {
+		width: 26%;
+	}
+
+	.ppl-info .row .col-md-9 {
+		width: 74%;
+	}
+
+	.deep p {
+		padding-bottom: 12px;
+	}
+
+	.payment-info input {
+		margin-bottom: 6px;
+	}
+}
+
+// 991px screen
+@media screen and (max-width: 991px) {
+	.one {
+		margin-bottom: 20px;
+	}
+
+	img.pink {
+		width: 40%;
+	}
+
+	.payment-info h6 {
+		padding-bottom: 20px;
+	}
+
+	.note {
+		padding: 15px 0!important;
+	}
+
+	.deep p {
+		padding-top: 6px;
+	}
+
+	.banking-info h5 {
+		padding-top: 15px;
+	}
+
+	.two {
+		padding-bottom: 30px;
+	}
+
+	.payment-info input {
+	    margin-bottom: 14px;
+	}
+
+}
+
+// 767px screen
+
+@media screen and (max-width: 767px) {
+	.checkout-button button {
+		padding: 15px 10px;
+	}
+
+	body {
+		overflow-x:hidden;
+	}
+
+	.two .row .col-xs-push-1 {
+    	left: 18.333333%;
+	}
+
+	.two .row .col-xs-10 {
+		width: 63.333333%;
+	}
+
+}
+
+// 480px screen 
+
+@media screen and (max-width: 480px) {
+	.logo img {
+		width: 110px;
+	}
+
+	img.pink {
+	    width: 50%;
+	}
+
+	.hotline span {
+		font-size: 26px;
+	}
+
+	.two .row .col-xs-push-1 {
+    	left: initial;
+	}
+
+	.two .row .col-xs-10 {
+		width: initial;
+	}
+
+	.the-same {
+		padding: 18px 10px;
+	}
+
+	.the-same label span {
+		margin-right: 6px;
+	}
+
+	.ppl-info .row .col-xs-3 {
+		width: 31%;
+	}
+
+	.ppl-info .row .col-xs-9 {
+		width: 69%;
+	}
+
+	.banking-info, .cod-info {
+		padding: 15px 0 18px 15px;
+	}
+
+	.bottom-cod textarea {
+		width: 96%;
+	}
+
+	.checkout-button button {
+		font-size: 16px;
+	}
+
+	.payment-info p {
+		font-size: 14px;
+	}
+
+	.deep p {
+    	padding-top: 6.5px;
+	}
+
+	.total-money {
+		font-size: 17px;
+	}
+
+	img.pink {
+	    width: 60%;
+	}
+}
+
+// 414 screen 
+
+@media screen and (max-width: 414px) {
+	.logo img {
+    	width: 100px;
+	}
+
+	.the-same label {
+		font-size: 15px;
+	}
+
+	.banking-info h5, .cod-info h5 {
+		font-size: 17px;
+	}
+
+	.ppl-info .row .col-xs-3 {
+    	width: 35%;
+	}
+
+	.ppl-info .row .col-xs-9 {
+	    width: 65%;
+	}
+
+	.checkout-button button {
+    	font-size: 14px;
+	}
+
+	.deep p {
+	    padding-top: 4.5px;
+	}
+
+	.payment-info input {
+	    margin-bottom: 11px;
+	}
+
+}
+
+// 375px screen
+
+@media screen and (max-width: 375px) {
+	.logo img {
+		width: 90px;
+	}
+
+	.hotline p {
+    	font-size: 20px;
+	}
+
+	.hotline span {
+    	font-size: 22px;
+	}
+
+	.the-same {
+    	padding: 10px 10px;
+	}
+
+	.ppl-info .row .col-xs-3 {
+		padding: 0 9px;
+	}
+
+	.ppl-info .row .col-xs-9 {
+		padding: 0 2px;
+	}
+
+	.deep p {
+    	padding-top: 2.5px;
+	}
+
+	.right-middle-content p {
+		font-size: 16px;
+	}
+
+	.deep {
+    	padding: 0 12px;
+	}
+
+	.payment-info input {
+	    margin-bottom: 8px;
+	}
+
+	.total-money {
+    	font-size: 16px;
+	}
+
+}
+
+// 360px screen 
+
+@media screen and (max-width : 360px) {
+	.banking-info, .cod-info {
+		font-size: 14px;
+	}
+
+	.deep {
+		padding: 0 9px;
+	}
+
+}
+
+// 320px screen
+
+@media screen and (max-width: 320px) {
+	.the-same {
+    	padding: 10px 8px;
+	}
+
+	.banking-info, .cod-info, .cod-info {
+		font-size: 13px;
+	}
+
+	.ppl-info .row .col-xs-3 {
+    	padding: 0 7px;
+	}
+
+	.banking-info, .cod-info, .cod-info {
+		padding: 15px 0 18px 10px;
+	}
+
+	.ppl-info .row .col-xs-9 {
+		padding: 0;
+	}
+
+	.the-same label {
+    	font-size: 14px;
+	}
+
+	.the-same label span {
+		width: 18px;
+		height: 18px;
+		vertical-align: -7px;
+	}
+
+	.checkout-button button {
+    	padding: 12px 6px;
+	}
+
+	.total-money {
+    	font-size: 14px;
+	}
+
+	.deep {
+		padding: 0;
+	}
+
+	.deep p {
+    	padding-top: 1.5px;
+	}
+
+	.bonus-button button {
+		font-size: 14px;
+	}
+
+	.payment-info label {
+		font-size: 14px;
+	}
+
+	.payment-info input {
+	    margin-bottom: 7px;
+	    font-size: 14px;
+	}
+}

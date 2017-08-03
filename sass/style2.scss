@@ -1,0 +1,314 @@
+@import 'variables';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $first-font;
+	font-size: 16px;
+	color: $para-color;
+	overflow-x: hidden;
+}
+
+.one {
+	padding-right: 12px;
+	padding-top: 75px;
+}
+
+.logo img {
+	width: 120px;
+}
+
+.hotline {
+	display: inline-block;
+}
+
+.hotline p:first-child {
+	font-weight: 600;
+}
+
+.hotline p {
+	font-size: 20px;
+}
+
+.hotline span {
+	font-size: 29px;
+	color: $text-color;
+	display: block;
+	padding: 2px 0;
+}
+
+.payment-bar {
+	padding-top: 28px;
+	padding-bottom: 26px;
+}
+
+.payment-bar img {
+	width: 98%;
+}
+
+.success {
+	padding-bottom: 16px;
+}
+
+.success img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.success h4 {
+	display: inline;
+	font-weight: 300;
+	color: $text-color;
+	font-size: 26px;
+}
+
+.payment-content {
+	padding: 15px 0 21px 25px;
+	background-image: url('../images/bg1.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+.payment-content h6 {
+	font-size: 25px;
+	padding-bottom: 35px;
+}
+
+.payment-content p {
+	font-size: 16px;
+	padding-bottom: 9px;
+}
+
+.left p {
+	font-weight: 600;
+}
+
+.right p {
+	font-weight: 300;
+}
+
+.warning {
+	margin-top: 20px;
+	padding: 0 16px;
+}
+
+.warning p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.two {
+	background-color: $right-bg;
+	padding-top: 75px;
+	padding-bottom: 290px;
+}
+
+.right-top-content img {
+	width: 100%;
+	border-bottom: 2px solid $border-second;
+}
+
+.right-middle-content {
+	padding-top: 22px;
+	padding-bottom: 22px;
+	border-bottom: 2px solid $border-second
+}
+
+.right-middle-content h5 {
+	color: $text-color;
+	padding-bottom: 20px;
+	font-weight: 600;
+}
+
+.right-middle-content p {
+	font-weight: 300;
+	font-size: 17px;
+}
+
+.payment-info {
+	padding-top: 31px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid $border-second
+}
+
+.payment-info h6 {
+	color: $text-color;
+	padding-bottom: 15px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.payment-info img {
+    vertical-align: middle;
+    margin-right: 6px;
+    width: 13%;
+}
+
+.payment-info p {
+	font-size: 15px;
+	font-weight: 300;
+	color: $text-color;
+	padding-bottom: 12px;
+	display: inline-block;
+}
+
+.deep p {
+	font-weight: 300;
+	color: $para-color;
+	padding-bottom: 14.5px;
+}
+
+.deep p:last-child {
+	line-height: 18px;
+}
+
+.payment-info label {
+	font-size: 15px;
+	color: $text-color;
+	padding-bottom: 12px;
+	display: inline-block;
+}
+
+.payment-info input {
+	width: 100%;
+    border: none;
+    border-bottom: 1px solid $border-second;
+    background-color: transparent;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 9px;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    font-size: 15px;
+}
+
+.payment-info input:focus {
+	outline: none;
+}
+
+.after {
+	display: none;
+}
+
+
+.bonus-button button {
+	color: #fff;
+	background-color: $buttonbg-color;
+	font-size: 16px;
+	padding: 8px 6px;
+	border-radius: 6px;
+	border: none;
+	box-shadow: 0px 2px 1px #d65a00;
+}
+
+.bonus-button button i {
+	padding-right: 6px;
+	vertical-align: top;
+}
+
+.bonus-button button:focus {
+	outline: none;
+}
+
+.bonus-button button:hover {
+	background-color: #ff791a;
+}
+
+.total-money {
+	padding-top: 18px;
+	padding-bottom: 30px;
+	font-size: 18px;
+	color: $text-color;
+}
+
+.total-money span:first-child {
+	float: left;
+	font-weight: 300;
+}
+
+.total-money span:last-child {
+	float: right;
+	font-weight: bold;
+}
+
+.banking-info {
+	padding: 15px 0 18px 27px;
+	background-color: $right-bg;
+	border-bottom: 2px solid #e3e3e3;
+	font-size: 15px;
+	line-height: 18px;
+	display: none;
+}
+
+.banking-info p {
+	font-weight: 100;
+	padding-bottom: 0;
+	font-weight: normal;
+}
+
+.note {
+	padding-top: 30px;
+	padding-bottom: 30px!important;
+}
+
+.banking-info b {
+	font-weight: bold;
+}
+
+.banking-info h5 {
+	color: $text-color;
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 20px;
+}
+
+.ppl-info {
+	padding-top: 8px;
+}
+
+.ppl-info p {
+	padding-bottom: 4px!important;
+}
+
+.cod-info {
+	@extend .banking-info;
+}
+
+.bottom-cod {
+	margin-top: 20px;
+	padding-left: 6px;
+}
+
+.bottom-cod textarea {
+	width: 92%;
+	height: 200px;
+	border-radius: 10px;
+	padding-top: 14px;
+	padding-left: 14px;
+	font-style: italic;
+	border: 1px solid #1d1d1d;
+}
+
+.bottom-cod textarea:focus {
+	outline: none;
+}
+
+p.italic {
+	font-style: italic;
+}
+
+img.addone {
+	width: 38%;
+	margin: auto;
+	display: none;
+}
+
+@import 'res2';

@@ -1,0 +1,349 @@
+// Responsive
+
+// 1199px screen
+
+@media screen and (max-width: 1199px) {
+	.payment-bar img {
+		display: none;
+	}
+
+	img.pink {
+		display: block;
+		width: 50%;
+	}
+
+	.payment-content {
+		padding: 15px 0 21px 18px;
+	}
+
+	.payment-content p {
+		font-size: 14px;
+	}
+
+	.deep p {
+		padding-top: 0;
+	}
+
+	.payment-info input {
+		margin-bottom: 6px;
+	}
+
+	.total-money {
+		font-size: 16px;
+	}
+
+}
+
+// 991px screen
+
+@media screen and (max-width: 991px) {
+	img.pink {
+		width: 44%;
+	}
+
+	.one {
+		margin-bottom: 30px;
+	}
+
+	.two {
+		padding-bottom: 30px;
+	}
+
+	.payment-content p {
+	    font-size: 16px;
+	}
+
+	.payment-info img {
+		margin-bottom: 8px;
+	}
+
+	.payment-info input {
+	    margin-bottom: 27px;
+	}
+
+	.deep p {
+		display: block;
+		padding-top: 17px;
+	}
+
+	.total-money {
+		font-size: 18px;
+	}
+}
+
+// 767px screen
+
+@media screen and (max-width: 767px) {
+	p.red {
+		padding-top: 14px;
+	}
+
+	.payment-info input {
+	    margin-bottom: 28px;
+	}
+}
+
+// 480px screen
+
+@media screen and (max-width: 480px) {
+	.logo img {
+	    width: 110px;
+	}
+
+	img.pink {
+	    width: 50%;
+	}
+
+	.success img {
+		width: 13%;
+	}
+
+	.success h4 {
+		font-size: 23px;
+	}
+
+	p.red {
+		padding-top: 16px;
+	}
+
+	.deep p {
+		padding-top: 6.5px;
+	}
+
+	.payment-info input {
+	    margin-bottom: 14px;
+	}
+}
+
+// 414px screen 
+
+@media screen and (max-width: 414px) {
+	img.pink {
+		width: 60%;
+	}
+
+	.success h4 {
+	    font-size: 20px;
+	}
+
+	.left {
+		padding: 0 13px;
+	}
+
+	.payment-info .row .col-xs-5 {
+	    padding: 0 6px;
+	}
+
+	.total-money {
+		font-size: 17px;
+	}
+
+	p.red {
+		padding-top: 31px;
+	}
+
+	.deep p {
+	    padding-top: 4.5px;
+	}
+
+	.payment-info input {
+	    margin-bottom: 11px;
+	}
+}
+
+// 375px screen
+
+@media screen and (max-width: 375px) {
+	.logo img {
+	    width: 100px;
+	}
+
+	.hotline span {
+		font-size: 25px;
+	}
+
+	.success h4 {
+	    font-size: 18px;
+	}
+
+	.payment-content h6 {
+	    font-size: 20px;
+	    padding-bottom: 20px;
+	}
+
+	.warning p {
+		font-size: 15px;
+	}
+
+	.left {
+	    padding: 0 7px;
+	}
+
+	.payment-content p {
+	    font-size: 14px;
+	}
+
+	.info-banking p {
+		font-size: 15px;
+	}
+
+	.payment-info .row .col-xs-5 {
+	    padding: 0 3px;
+	}
+
+	.payment-info p {
+		font-size: 14px;
+	}
+
+	.payment-info img {
+		margin-bottom: 0;
+	}
+
+	.payment-info label {
+		font-size: 14px;
+	}
+
+	.payment-info input {
+		font-size: 14px;
+		margin-bottom: 7px;
+	}
+
+	.deep p {
+	    padding-top: 1.5px;
+	}
+
+	.info-banking h6, .ck h6 {
+		font-size: 18px;
+	}
+
+	.total-money {
+		font-size: 16px;
+	}
+}
+
+// 360px screen
+
+@media screen and (max-width: 360px) {
+	.hotline span {
+	    font-size: 24px;
+	}
+
+	img.pink {
+	    width: 58%;
+	}
+
+	.success img {
+	    width: 10%;
+	}
+
+	.left {
+	    padding: 0 4px;
+	}
+
+	.payment-content h6 {
+		font-size: 18px;
+	}
+
+	p.red {
+	    padding-top: 28px;
+	}
+
+	.warning p {
+		font-size: 15px;
+	}
+
+	.before .col-xs-6 {
+		padding: 0 12px;
+	}
+
+	.after .col-xs-6 {
+		padding: 0 12px;
+	}
+
+
+	.right {
+		padding: 0 13px;
+	}
+
+	.payment-info .row .col-xs-5 {
+		padding: 0;
+	}
+}
+
+// 320px screen
+
+@media screen and (max-width: 320px) {
+
+	.logo img {
+	    width: 90px;
+	}
+
+	.hotline span {
+	    font-size: 22px;
+	}
+	.success img {
+		margin-right: 5px;
+	}
+
+	.success h4 {
+	    font-size: 16px;
+	}
+
+	.payment-content h6 {
+		font-size: 18px;
+	}
+
+	.right {
+	    padding: 0 10px;
+	}
+
+	p.red {
+	    padding-top: 28px;
+	}
+
+	.info-banking h6, .ck h6 {
+		font-size: 17px;
+	}
+
+	.warning p {
+	    font-size: 14px;
+	}
+
+	.left {
+		padding: 0 4px;
+	}
+
+	.right {
+		padding: 0 7px;
+	}
+
+	.info-banking p {
+	    font-size: 14px;
+	}
+
+	.ck p {
+	    font-size: 14px;
+	}
+
+	.before .col-xs-6 {
+	    padding: 0px 4px;
+	}
+
+	.after .col-xs-6 {
+	    padding: 0px 3px;
+	}
+
+
+	.total-money {
+    	font-size: 14px;
+	}
+
+	.payment-info .row .col-xs-5 {
+		width: 47%;
+	}
+
+	.payment-info .row .col-xs-7 {
+		width: 53%;
+		padding: 0 8px;
+	}
+}
